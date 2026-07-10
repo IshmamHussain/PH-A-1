@@ -131,3 +131,60 @@ body {
     border-radius: 8px;
     margin-top: auto;
 }
+.speaker-part {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: #f8fafc;
+}
+
+.speaker-part h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0f172a;
+}
+
+.speaker-grid-thing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.speaker-box {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    text-align: left;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.speaker-box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.text-area {
+    padding: 15px 20px;
+}
+
+.little-tag {
+    color: #2563eb;
+    font-size: 0.7rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+}
+
+.text-area h3 {
+    font-size: 1rem;
+    margin-bottom: 2px;
+    color: #0f172a;
+}
+
+.text-area p {
+    font-size: 0.85rem;
+    color: #64748b;
+}
