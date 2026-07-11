@@ -188,3 +188,142 @@ body {
     font-size: 0.85rem;
     color: #64748b;
 }
+
+.money-part {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.money-part h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.gray-text {
+    color: #64748b;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+}
+
+.price-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.price-box {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 30px;
+    width: 32%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark-box {
+    background-color: #0f172a;
+    color: #ffffff;
+    border: none;
+}
+
+.price-box h4 {
+    color: #64748b;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+}
+
+.dark-box h4 {
+    color: #94a3b8;
+}
+
+.big-price {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.tiny-text {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.dark-box .tiny-text {
+    color: #94a3b8;
+}
+
+.price-box ul {
+    list-style: none;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.price-box ul li {
+    margin-bottom: 12px;
+    font-size: 0.85rem;
+    color: #334155;
+}
+
+.dark-box ul li {
+    color: #cbd5e1;
+}
+
+.price-box ul li::before {
+    content: "• ";
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.price-box .my-button {
+    width: 100%;
+}
+
+.ai-part {
+    padding: 60px 50px;
+}
+
+.purple-box {
+    background-color: #f4f0ff;
+    border: 2px dashed #a855f7;
+    border-radius: 8px;
+    padding: 50px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.purple-box h2 {
+    color: #7e22ce;
+    margin-bottom: 12px;
+    font-size: 2rem;
+}
+
+.purple-box p {
+    color: #334155;
+    font-size: 1rem;
+}
+
+.purple-box .my-button {
+    margin-top: 20px;
+}
+
+.bottom-area {
+    background-color: #0f172a;
+    color: #94a3b8;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.bottom-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    margin-left: 20px;
+}
